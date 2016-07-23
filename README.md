@@ -10,8 +10,7 @@ It uses the hashicorp/consul image with `EXPOSE 53/udp` added.
 
 ```
 $ docker build -t hashicorp/consul .
-$ docker run -v $PWD/config:/opt/config --cap-add NET_BIND_SERVICE consul agent -config-dir=/opt/config
-frank@franktop:~/src/consul-sandbox$ docker run -v $PWD/config:/opt/config --cap-add NET_BIND_SERVICE hashicorp/consul agent -config-dir=/opt/config
+$ docker run -v $PWD/config:/opt/config --cap-add NET_BIND_SERVICE hashicorp/consul agent -config-dir=/opt/config
 ==> Starting Consul agent...
 ==> Starting Consul agent RPC...
 ==> Consul agent running!
@@ -38,4 +37,4 @@ $ dig @172.17.0.2
 
 ## Get in touch
 
-If you know how to fix this please comment on the above PR thread.
+If you know how to fix this please comment on the above PR thread or via Twitter at @frank_scholten
