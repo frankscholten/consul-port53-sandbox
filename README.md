@@ -37,4 +37,4 @@ $ dig @172.17.0.2
 
 ## Get in touch
 
-If you know how to fix this please comment on the above PR thread or via Twitter at @frank_scholten
+If you know how to fix this please comment on the above PR thread or via Twitter at [@Frank_Scholten](https://twitter.com/frank_scholten)
